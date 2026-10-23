@@ -1,0 +1,115 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-main: #1D1D22;
+    --bg-surface: #23232A;
+    --bg-card: #272730;
+    --accent-cyan: #00D5F5;
+    --accent-mint: #00E99A;
+    --text-primary: #F5F7FA;
+    --text-secondary: #A3A8B3;
+  }
+
+  body {
+    background-color: #1D1D22;
+    color: #F5F7FA;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+
+  /* Custom subtle scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #18181D;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #32323B;
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #00D5F5;
+  }
+}
+
+.font-display {
+  font-family: 'Outfit', sans-serif;
+}
+
+.font-mono-code {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Atmospheric Glow Background */
+.hexa-grid-bg {
+  background-image: 
+    radial-gradient(circle at 50% 0%, rgba(0, 213, 245, 0.09) 0%, transparent 60%),
+    radial-gradient(circle at 100% 50%, rgba(0, 233, 154, 0.05) 0%, transparent 50%),
+    linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 48px 48px, 48px 48px;
+}
+
+/* Light sweep keyframes for the signature logo */
+@keyframes lightSweep {
+  0% {
+    transform: translateX(-150%) skewX(-25deg);
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.85;
+  }
+  80% {
+    opacity: 0.85;
+  }
+  100% {
+    transform: translateX(180%) skewX(-25deg);
+    opacity: 0;
+  }
+}
+
+.animate-light-sweep {
+  animation: lightSweep 2.2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+/* Cyan to mint gradient helpers */
+.text-gradient-hexa {
+  background: linear-gradient(135deg, #00D5F5 0%, #00E99A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-gradient-hexa {
+  background: linear-gradient(135deg, #00D5F5 0%, #00E99A 100%);
+}
+
+.border-gradient-hexa {
+  border-image: linear-gradient(135deg, #00D5F5 0%, #00E99A 100%) 1;
+}
+
+.glow-cyan-mint {
+  box-shadow: 0 0 25px -5px rgba(0, 213, 245, 0.35), 0 0 15px -3px rgba(0, 233, 154, 0.25);
+}
+
+.glow-cyan-sm {
+  box-shadow: 0 0 15px -3px rgba(0, 213, 245, 0.4);
+}
+
+/* Glass panel */
+.glass-panel {
+  background: rgba(35, 35, 42, 0.72);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.glass-panel-hover {
+  transition: all 0.25s ease-out;
+}
+.glass-panel-hover:hover {
+  background: rgba(40, 40, 49, 0.85);
+  border-color: rgba(0, 213, 245, 0.35);
+  box-shadow: 0 10px 30px -10px rgba(0, 213, 245, 0.15);
+}

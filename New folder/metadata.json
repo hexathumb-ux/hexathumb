@@ -1,0 +1,6 @@
+{
+  "name": "HEXA — Graphic Design Portfolio",
+  "description": "Premium animated graphic design portfolio for HEXA specializing in YouTube thumbnails, creative digital visuals, and bold composition.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
