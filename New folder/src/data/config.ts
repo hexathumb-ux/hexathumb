@@ -855,7 +855,7 @@ export const PORTFOLIO_PROJECTS: PortfolioItem[] = [
     slotNumber: 38,
     title: 'AI Will Decide My Whole Day',
     category: 'Creative Experiments',
-    imageUrl: '/assets/aistudio/13d3-f471-e248-4248-6dcb-bf03a45fb596.jpg',
+    imageUrl: '/assets/aistudio/eb874df8-da40-404c-8ea6-2c81896bede5.jpg',
     aspectRatio: '16:9',
     softwareUsed: 'Adobe Photoshop',
     visualHook: 'Challenging experiment where AI controls daily choices like food and sleep.',
