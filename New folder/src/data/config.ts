@@ -823,47 +823,46 @@ export const PORTFOLIO_PROJECTS: PortfolioItem[] = [
     ],
     gradientTheme: { from: '#8B5CF6', to: '#10B981' },
   },
+  {
+   {
+    id: 'thumb-36-make-money-youtube',
+    slotNumber: 36,
+    title: 'How to Make Money on YouTube',
+    category: 'YouTube Thumbnails',
+    imageUrl: '/assets/aistudio/12d2a81-adf-4248-b4bb-683c05f596.jpg',
+    aspectRatio: '16:9',
+    softwareUsed: 'Adobe Photoshop',
+    visualHook: 'High-impact thumbnail design optimized for click-through rate.',
+    description: 'Custom YouTube thumbnail designed to maximize views and audience engagement.',
+    tags: ['YouTube Thumbnails', 'Growth', 'Tutorial'],
+    gradientTheme: { from: '#3B82F6', to: '#1D4ED8' }
+  },
+  {
+    id: 'thumb-37-last-day-first-house',
+    slotNumber: 37,
+    title: 'Last Day in Our First House',
+    category: 'Creative Experiments',
+    imageUrl: '/assets/aistudio/1dff8ea4-86ad-45d8-b541-e1f486d22208.jpg',
+    aspectRatio: '16:9',
+    softwareUsed: 'Adobe Photoshop',
+    visualHook: 'Emotional vlog thumbnail capturing a memorable life milestone.',
+    description: 'Vlog thumbnail for the final day in our first house story.',
+    tags: ['Vlog', 'Lifestyle', 'Story'],
+    gradientTheme: { from: '#EC4899', to: '#8B5CF6' }
+  },
+  {
+    id: 'thumb-38-ai-decide-whole-day',
+    slotNumber: 38,
+    title: 'AI Will Decide My Whole Day',
+    category: 'Creative Experiments',
+    imageUrl: '/assets/aistudio/13d3-f471-e248-4248-6dcb-bf03a45fb596.jpg',
+    aspectRatio: '16:9',
+    softwareUsed: 'Adobe Photoshop',
+    visualHook: 'Challenging experiment where AI controls daily choices like food and sleep.',
+    description: 'An engaging challenge thumbnail showcasing an AI-controlled daily routine.',
+    tags: ['AI', 'Challenge', 'Experiment'],
+    gradientTheme: { from: '#10B981', to: '#059669' }
+  }
+  
 
-  // --- REMAINING RESERVED DROP SLOTS (Slots 36 to 40 - Total 40 Slots) ---
-  ...Array.from({ length: 5 }, (_, i) => {
-    const slotNumber = i + 36;
-    const slotCategories: Exclude<Category, 'All Work'>[] = [
-      'YouTube Thumbnails',
-      'Gaming',
-      'Education',
-      'Business and Technology',
-      'Creative Experiments',
-    ];
-    const category = slotCategories[i % slotCategories.length];
-    
-    const sampleConcepts = [
-      'Testing 100 Viral Life Hacks to See If They Work',
-      'Minecraft But Every 60 Seconds The World Shrinks',
-      'Why Tesla Self-Driving Stunned the Auto Industry',
-      'Roblox Escape The Giant Tsunami Hardcore',
-      'The Quantum Physics Experiment That Broke Reality',
-    ];
-
-    const title = `Slot #${slotNumber}: ${sampleConcepts[i] || 'Reserved HEXA Design Slot'}`;
-
-    return {
-      id: `slot-${slotNumber}`,
-      slotNumber,
-      title,
-      category,
-      isPlaceholder: true,
-      description: `Reserved portfolio slot #${slotNumber}. Ready for upcoming thumbnail upload. Configured with Photoshop composition layers and 16:9 aspect ratio.`,
-      tags: ['Upcoming Drop', category, 'Photoshop', '16:9'],
-      aspectRatio: '16:9',
-      softwareUsed: 'Adobe Photoshop',
-      visualHook: 'Ready to publish: Click to upload your next thumbnail artwork',
-      compositionNotes: [
-        'Optimized for 1920x1080 YouTube feed contrast and CTR hierarchy',
-        'Custom slot ready for instant replacement via Portfolio Manager or direct file upload',
-        'Preserves HEXA cyan-to-mint frame styling and lightbox inspection',
-      ],
-      gradientTheme: { from: '#00D5F5', to: '#00E99A' },
-    };
-  }),
-];
-
+  
