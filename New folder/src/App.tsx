@@ -31,9 +31,6 @@ export default function App() {
     return saved;
   });
 
-  const [customLogoUrl, setCustomLogoUrl] = useState<string | null>(() => {
-    return localStorage.getItem('hexa_custom_logo') || null;
-  });
 
   const [customProjects, setCustomProjects] = useState<PortfolioItem[]>(() => {
     try {
