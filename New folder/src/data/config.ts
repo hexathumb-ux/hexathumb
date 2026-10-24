@@ -842,7 +842,7 @@ export const PORTFOLIO_PROJECTS: PortfolioItem[] = [
     slotNumber: 37,
     title: 'Last Day in Our First House',
     category: 'Creative Experiments',
-    imageUrl: '/assets/aistudio/12d2c4f1-ad3f-424f-8abb-683cb596f596.jpg',
+    imageUrl: '/assets/aistudio/12d2c4f1-ad3f-424f-8abb-683cb59ef596.jpg',
     aspectRatio: '16:9',
     softwareUsed: 'Adobe Photoshop',
     visualHook: 'Emotional vlog thumbnail capturing a memorable life milestone.',
