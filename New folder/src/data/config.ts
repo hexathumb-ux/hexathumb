@@ -864,7 +864,8 @@ export const PORTFOLIO_PROJECTS: PortfolioItem[] = [
     compositionNotes: [
       'Dynamic split-screen contrasting AI control against organic daily life',
       'High-contrast typography blending digital and organic elements',
-      'Engaging visual hook highlighting randomized decision-making'.
+      'Engaging visual hook highlighting randomized decision-making',
+    ],
     gradientTheme: { from: '#10B981', to: '#059669' }
   }   
  ];
