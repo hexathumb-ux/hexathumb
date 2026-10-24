@@ -862,6 +862,10 @@ export const PORTFOLIO_PROJECTS: PortfolioItem[] = [
     tags: ['AI', 'Challenge', 'Experiment'],
     gradientTheme: { from: '#10B981', to: '#059669' }
   }
+];
+
+
+
   
 
   
