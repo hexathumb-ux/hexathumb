@@ -824,8 +824,7 @@ export const PORTFOLIO_PROJECTS: PortfolioItem[] = [
     gradientTheme: { from: '#8B5CF6', to: '#10B981' },
   },
   {
-   {
-    id: 'thumb-36-make-money-youtube',
+     id: 'thumb-36-make-money-youtube',
     slotNumber: 36,
     title: 'How to Make Money on YouTube',
     category: 'YouTube Thumbnails',
@@ -863,6 +862,8 @@ export const PORTFOLIO_PROJECTS: PortfolioItem[] = [
     tags: ['AI', 'Challenge', 'Experiment'],
     gradientTheme: { from: '#10B981', to: '#059669' }
   }
+  
+
   
 
   
