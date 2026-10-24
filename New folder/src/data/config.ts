@@ -838,17 +838,24 @@ export const PORTFOLIO_PROJECTS: PortfolioItem[] = [
     
   },
   {
-    id: 'thumb-37-last-day-first-house',
-    slotNumber: 37,
-    title: 'Last Day in Our First House',
-    category: 'Creative Experiments',
-    imageUrl: '/assets/aistudio/12d2c4f1-ad3f-424f-8abb-683cb59ef596.jpg',
-    aspectRatio: '16:9',
-    softwareUsed: 'Adobe Photoshop',
-    visualHook: 'Emotional vlog thumbnail capturing a memorable life milestone.',
-    description: 'Vlog thumbnail for the final day in our first house story.',
-    tags: ['Vlog', 'Lifestyle', 'Story'],
-    gradientTheme: { from: '#EC4899', to: '#8B5CF6' }
+   
+
+   id: 'thumb-39-ram-mandir-chori',
+   slotNumber: 39,
+   title: 'Ram Mandir Mein Chori',
+   category: 'Education',
+   imageUrl: '/assets/aistudio/eb874df8-da40-404c-8ea6-2c81896bede5.jpg',
+   aspectRatio: '16:9',
+   softwareused: 'Adobe Photoshop',
+   visualHook: 'High-impact political profile thumbnail featuring dramatic architectural elements and intense lighting.',
+   tags: ['Leadership', 'Current Affairs', 'Temple'],
+   compositionNotes: [
+    'Deep architectural backdrop with dramatic red lighting',
+    'Focal point on the main temple structure for instant click appeal',
+    'High contrast typography to emphasize the title'
+   ],
+   gradientTheme: { from: '#D91F26', to: '#620E12' }
+
   },
   {
     id: 'thumb-38-ai-decide-whole-day',
