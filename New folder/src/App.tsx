@@ -20,7 +20,7 @@ export default function App() {
   const [activeSection, setActiveSection] = useState<string>('home');
   const [isOwnerGuideOpen, setIsOwnerGuideOpen] = useState<boolean>(false);
   const [initialInquiryProject, setInitialInquiryProject] = useState<PortfolioItem | null>(null);
-
+  const [customLogoUrl, setCustomLogoUrl] = useState<string | null>(null);
   // Persistent settings for portfolio owner (default: Harsh Singh +91 79900 26523)
   const [whatsappNumber, setWhatsappNumber] = useState<string>(() => {
     const saved = localStorage.getItem('hexa_whatsapp_number');
