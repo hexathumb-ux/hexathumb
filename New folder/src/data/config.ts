@@ -824,17 +824,17 @@ export const PORTFOLIO_PROJECTS: PortfolioItem[] = [
     gradientTheme: { from: '#8B5CF6', to: '#10B981' },
   },
   {
-     id: 'thumb-36-make-money-youtube',
-    slotNumber: 36,
-    title: 'How to Make Money on YouTube',
-    category: 'YouTube Thumbnails',
-    imageUrl: '/assets/aistudio/1dff8ea4-86ad-45d8-b541-e1f486d22208.jpg',
+   id: 'thumb-37-last-day-first-house',
+    slotNumber: 37,
+    title: 'Last Day in Our First House',
+    category: 'Creative Experiments',
+    imageUrl: '/assets/aistudio/12d2c4f1-ad3f-424f-8abb-683cb59ef596.jpg',
     aspectRatio: '16:9',
     softwareUsed: 'Adobe Photoshop',
-    visualHook: 'High-impact thumbnail design optimized for click-through rate.',
-    description: 'Custom YouTube thumbnail designed to maximize views and audience engagement.',
-    tags: ['YouTube Thumbnails', 'Growth', 'Tutorial'],
-    gradientTheme: { from: '#3B82F6', to: '#1D4ED8' }
+    visualHook: 'Emotional vlog thumbnail capturing a memorable life milestone.',
+    description: 'Vlog thumbnail for the final day in our first house story.',
+    tags: ['Vlog', 'Lifestyle', 'Story'],
+    gradientTheme: { from: '#EC4899', to: '#8B5CF6' }
     
   },
   {
@@ -844,7 +844,7 @@ export const PORTFOLIO_PROJECTS: PortfolioItem[] = [
    slotNumber: 39,
    title: 'Ram Mandir Mein Chori',
    category: 'Education',
-   imageUrl: '/assets/aistudio/eb874df8-da40-404c-8ea6-2c81896bede5.jpg',
+   imageUrl: '/assets/aistudio/Untitled-10.png',
    aspectRatio: '16:9',
    softwareused: 'Adobe Photoshop',
    visualHook: 'High-impact political profile thumbnail featuring dramatic architectural elements and intense lighting.',
