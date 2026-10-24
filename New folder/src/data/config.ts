@@ -835,6 +835,7 @@ export const PORTFOLIO_PROJECTS: PortfolioItem[] = [
     description: 'Custom YouTube thumbnail designed to maximize views and audience engagement.',
     tags: ['YouTube Thumbnails', 'Growth', 'Tutorial'],
     gradientTheme: { from: '#3B82F6', to: '#1D4ED8' }
+    
   },
   {
     id: 'thumb-37-last-day-first-house',
@@ -860,12 +861,16 @@ export const PORTFOLIO_PROJECTS: PortfolioItem[] = [
     visualHook: 'Challenging experiment where AI controls daily choices like food and sleep.',
     description: 'An engaging challenge thumbnail showcasing an AI-controlled daily routine.',
     tags: ['AI', 'Challenge', 'Experiment'],
+    compositionNotes: [
+      'Dynamic split-screen contrasting AI control against organic daily life',
+      'High-contrast typography blending digital and organic elements',
+      'Engaging visual hook highlighting randomized decision-making'.
     gradientTheme: { from: '#10B981', to: '#059669' }
-  }
-];
-
-
-
+  }   
+ ];
+ 
+    
+    
   
 
   
